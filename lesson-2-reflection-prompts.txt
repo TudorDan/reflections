@@ -1,0 +1,26 @@
+What happens when you initialize a repository? Why do you need to do it?
+	After running "git status", you receive an output containing "Initial commit". You need to do it because otherwise, the repository wouldn't have any commits.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+	You put things in the staging area before you make a commit.
+	In order to transfer files from the working directory to a repository, you need to add them to the staging area.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+	Using "git status" helps visualize the current situation in the staging and facilitates deciding which commits would be a logical change.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+	Branches are helpful when making changes to the original program. They help keeping the original working version.
+
+How do the diagrams help you visualize the branch structure?
+	They help visualize when and what changes have been made, together with showing the original working version of the program.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+	It combines to versions of the program together. We represent it in order to have a better understanding of the order of the different versions.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+	Automatic merging is probably faster but manual merging offer greater control over the program.
